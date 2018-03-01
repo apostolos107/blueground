@@ -5,4 +5,4 @@ compile:
 	java -cp ".:./json-simple-1.1.1.jar" Main
 
 clean:
-	rm -f *.class *~
+	rm -f *.class *~ metrics.txt
