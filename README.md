@@ -18,7 +18,7 @@ This class just have the information for the search that you want.
 
 ## class DailyResults
 It has the metrics that we need. This class has a funtcion called Calculate in which
-you have to pass an SearchInfo object (specifically the information that you want to search).
+you have to pass a SearchInfo object (specifically the information that you want to search).
 This function connects with the url, it parses the json , it gets the object "dailysummary" 
 where are the information that we need and update its metrics with this information.
 The other function that this class has, is the writeFile which simply writes a file(metrics.txt) 
@@ -26,4 +26,4 @@ with the metrics.
 
 ## class Main 
 Just make an object SearchInfo and DailyResults. After the main calls the Calculate funtion 
-of the DailyResults object and then the wirteFile function.
+of the DailyResults object and then the writeFile function.
